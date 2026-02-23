@@ -10,7 +10,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: aquamarine;
+    background-color: rgb(69, 166, 231);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(26, 43, 54);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
