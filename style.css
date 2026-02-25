@@ -32,3 +32,22 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0 , 0.1);
     padding: 12px;
 }
+
+#pedidos{
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
+
+#status{
+position: fixed;    
+right: 0px;
+top: 0px;
+}
+
+#mensagens{
+top: 30%;
+right: 0px;
+position: fixed;
+}
+
