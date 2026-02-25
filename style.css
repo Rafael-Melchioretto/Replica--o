@@ -16,10 +16,10 @@ body{
 
 #navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 40px;
-    background-color: rgb(26, 43, 54);
+    background-color: rgb(88, 77, 77);
     color: white;
     padding: 24px 40px;
 }
@@ -31,6 +31,42 @@ body{
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0 , 0.1);
     padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#pedidos{
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
+
+#status{
+position: fixed;    
+right: 0px;
+top: 0px;
+}
+
+#mensagens{
+top: 30%;
+right: 0px;
+position: fixed;
+}
+
+.compras-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.compras img{
+    width: 150px;
+    height: auto;
+    display: flex;
 }
 
 #pedidos{
