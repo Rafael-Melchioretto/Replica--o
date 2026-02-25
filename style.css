@@ -1,5 +1,5 @@
 #icon{
-    width: 160px;
+    width: 180px;
     height: auto;
 }
 
@@ -18,10 +18,13 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px 40px;
-    background-color: rgb(88, 77, 77);
+    padding: 5px;
+    background-color: rgb(21, 120, 138);
     color: white;
-    padding: 24px 40px;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 40px auto;
+    margin: 10px;
 }
 
 .compras{
@@ -79,11 +82,23 @@ right: 0px;
 position: fixed;    
 right: 0px;
 top: 0px;
+padding: 15px;
+margin-bottom: 20px;
+
 }
 
 #mensagens{
-top: 30%;
+top: 40%;
 right: 0px;
 position: fixed;
+padding: 15px;
+margin-bottom: 20px;
+
+}
+
+#requisições{
+position: fixed;
+bottom: 0px;
+left: 0px;
 }
 
